@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212995625751",
+    "project_id": "checklist-a0154",
+    "storage_bucket": "checklist-a0154.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212995625751:android:b0025c229da8b490e11d52",
+        "android_client_info": {
+          "package_name": "com.example.checklist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212995625751-3vgap0p5cho03gsej9sj0vm8aierlhe0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFB76fTS-LxhWUKSeA79OfZQvo-SnzkdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212995625751-3vgap0p5cho03gsej9sj0vm8aierlhe0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

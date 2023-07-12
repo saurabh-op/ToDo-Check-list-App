@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CheckList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="RetypePassword">Retype Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="not_registered">Not Registered !!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="checklist">CheckList</string>
+    <string name="add_new_task">Add new Task</string>
+</resources>

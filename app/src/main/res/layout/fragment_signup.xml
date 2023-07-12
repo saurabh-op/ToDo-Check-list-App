@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_10"
+    tools:context=".fragments.signupFragment">
+
+
+    <EditText
+        android:id="@+id/signup_email_et"
+
+        android:layout_width="254dp"
+        android:layout_height="31dp"
+        android:background="@color/white"
+        android:hint="    Email"
+
+        android:inputType="textEmailAddress"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@id/signup_login_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signup_password_box1"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.654"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:hint="@string/password"
+
+            android:inputType="textPassword"
+            android:paddingStart="12dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="12dp"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signup_password_box2"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signup_retype_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@color/white"
+            android:hint="Confirm Password"
+
+            android:inputType="textPassword"
+            android:paddingStart="12dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="12dp"
+
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="576dp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/signup_login_tv"
+        android:layout_width="196dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signup_password_box1"
+        app:layout_constraintVertical_bias="0.438" />
+
+    <TextView
+        android:id="@+id/signup_signin_tv"
+        android:layout_width="311dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_login_tv"
+        app:layout_constraintVertical_bias="0.305" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
